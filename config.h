@@ -6,7 +6,8 @@ static int centered = 1;                    /* -c option; centers dmenu on scree
 static int min_width = 750;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Iosevka:size=15"
+    // "Iosevka Sans Mono:size=15"
+    "Fantasque Sans Mono:size=15"
 };
 //#include "/home/cathal/.cache/wal/colors-wal-dmenu.h"
 #include ".themes/gruvbox.h"
